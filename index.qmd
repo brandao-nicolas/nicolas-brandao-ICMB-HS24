@@ -1,0 +1,7 @@
+---
+title: "About"
+---
+
+Welcome! This website contains my assignments for the course "Introduction to Computational Modeling of Behavior" taught by Ven Popov at the University of Zurich (HS24).
+
+The content will be continuously added during the semester.

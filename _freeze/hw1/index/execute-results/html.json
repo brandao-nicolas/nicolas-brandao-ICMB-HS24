@@ -1,0 +1,15 @@
+{
+  "hash": "84c4d6af6722101be8a2a1c770a9a483",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Assignment 1\"\n---\n\n\nAssignment 1 was to create a [repository](https://github.com/brandao-nicolas/icmb-portfolio) to store my assignments and publish this website featuring a simple plot to verify that everything is working.\n\n## A Simple Plot\n\nFor the simple plot, I decided to create a histogram of 1000 generated IQ scores. IQ scores are normally distributed with a mean of 100 and a standard deviation of 15.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Generate a sample of 1000 IQ scores from a normal distribution\n# with a mean of 100 and a standard deviation of 15\ngenerated_iq_scores <- rnorm(n = 1000, mean = 100, sd = 15)\n\n# Create a histogram to visualize the distribution of the generated IQ scores\nhist(generated_iq_scores,\n     main = \"Distribution of Generated IQ Scores\",\n     xlab = \"IQ score\",\n     ylab = \"Frequency\")\n```\n\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
